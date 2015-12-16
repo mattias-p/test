@@ -67,10 +67,8 @@
 \bBuild.COM$
 \bBUILD.COM$
 \bbuild.com$
-^MANIFEST\.SKIP
 \bMakefile.PL$
-\bMETA.yml$
-\bMETA.json$
+^META\.
 
 # Avoid archives of this distribution
 \bMy-Test-[\d\.\_]+
