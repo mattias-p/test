@@ -7,9 +7,6 @@ my $builder = Module::Build->new(
     module_name         => 'My::Test',
     license             => 'Perl_5',
     dist_author         => q{Mattias Päivärinta <mattias.paivarinta@doxwork.com>},
-    dist_abstract       => 'this is the abstract',
-    dist_version        => '1.0.0',
-    dist_version_from   => 'README.pod',
     release_status      => 'stable',
     configure_requires => {
         'Module::Build' => 0,
@@ -23,7 +20,6 @@ my $builder = Module::Build->new(
     },
     add_to_cleanup     => [ 'My-Test-*' ],
     create_makefile_pl => 'traditional',
-    create_readme => 1,
 );
 
 $builder->create_build_script();

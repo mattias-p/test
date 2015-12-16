@@ -8,4 +8,14 @@ Test
 
 Here be descriptions.
 
+=head1 VERSION HISTORY
+
+=over 4
+
+=item 1.0.0 (2015-12-16)
+
+First version, released on an unsuspecting world.
+
+=back
+
 =cut
