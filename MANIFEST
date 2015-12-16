@@ -1,6 +1,7 @@
 Build.PL
 lib/My/Test.pm
 MANIFEST			This list of files
+MANIFEST.SKIP
 README.pod
 t/00-load.t
 t/boilerplate.t
