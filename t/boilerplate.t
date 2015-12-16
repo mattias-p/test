@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => 'all';
 use Test::More;
 
-plan tests => 3;
+plan tests => 2;
 
 sub not_in_file_ok {
     my ($filename, %regex) = @_;
@@ -41,13 +41,10 @@ sub module_boilerplate_ok {
 TODO: {
   local $TODO = "Need to replace the boilerplate text";
 
-  not_in_file_ok(README =>
+  not_in_file_ok('README.pod' =>
     "The README is used..."       => qr/The README is used/,
     "'version information here'"  => qr/to provide version information/,
-  );
-
-  not_in_file_ok(Changes =>
-    "placeholder date/time"       => qr(Date/time)
+    "placeholder date/time"       => qr(Date/time),
   );
 
   module_boilerplate_ok('lib/My/Test.pm');

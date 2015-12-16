@@ -4,6 +4,8 @@ use 5.014;
 use strict;
 use warnings FATAL => 'all';
 
+=encoding utf8
+
 =head1 NAME
 
 My::Test - The great new My::Test!
