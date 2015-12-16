@@ -8,4 +8,4 @@ Test
 
 Here be descriptions.
 
-=end
+=cut
