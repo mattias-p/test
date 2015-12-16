@@ -1,1 +1,11 @@
-test
+=pod
+
+=head1 NAME
+
+Test
+
+=head1 DESCRIPTION
+
+Here be descriptions.
+
+=end
