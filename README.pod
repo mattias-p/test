@@ -6,7 +6,7 @@ Test
 
 =head1 DESCRIPTION
 
-Here be descriptions.
+Here be descirptions.
 
 =head1 VERSION HISTORY
 
